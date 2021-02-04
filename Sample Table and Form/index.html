@@ -1,0 +1,174 @@
+
+</<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Look it's a table!</title>
+    <style>
+body {
+  background-image: url('catbg1.jfif');
+
+}
+
+fieldset {
+  background-color: #cff5a4;
+  width: 50%;
+}
+
+table, th, td {
+  border: 2px solid darkgreen;
+  border-collapse: collapse;
+  padding: 10px;
+}
+th {
+  background-color: limegreen
+}
+h1, h4 {
+  color:limegreen
+}
+
+hr {
+  background: linear-gradient(to right, #cff5a4, darkgreen);
+  height: 3px;
+}
+
+</style>
+  </head>
+  <body>
+    <center>
+    <h1>All Cats Are Beautiful</h1>
+    <table style="background-color: white">
+
+      <tr>
+        <th>
+          Type of Cat
+          </th>
+          <th>
+            How Awesome is this Cat?
+            </th>
+            <th>
+              What Does this Cat Look Like?
+              </th>
+        </tr>
+        <tr>
+          <td>
+            Siamese
+            </td>
+            <td>
+              elegant
+              </td>
+              <td>
+                <img src="Siamese.jfif" alt="a beautiful cat">
+                </td>
+          </tr>
+          <tr>
+            <td>
+              Maine Coon
+              </td>
+              <td>
+                fluffy and good
+                </td>
+                <td>
+                  <img src="maine.jfif" alt="a beautiful cat">
+                  </td>
+            </tr>
+            <tr>
+              <td>
+                Those freaky hairless cats?
+                </td>
+                <td>
+                  Amazing
+                  </td>
+                  <td>
+                    <img src="sphynx.jfif" alt="a beautiful cat">
+                    </td>
+              </tr>
+    </table>
+
+
+<br><br />
+
+</center>
+
+<hr />
+<br /> <br />
+
+<form class="" action="index.html" method="post">
+
+<fieldset>
+  <legend>Tell me about your cat</legend>
+  <br>
+
+
+
+  <label for="catname">You cat's name:</label>
+  <input type="text" name="catname" value="meow?">
+  <br /><br />
+
+  <label for="Size">You cat's size:</label><br />
+  <input type="radio" name="small" value="small">
+  <label for="small">Small</label><br />
+  <input type="radio" name="medium" value="medium">
+  <label for="medium">Medium</label><br />
+  <input type="radio" name="large" value="large">
+  <label for="large">Large</label><br /><br>
+
+  <label for="purr">Purr Volume</label>
+  <select id="purr" name="purr">
+    <option value="quiet">
+      Quiet
+      </option>
+      <option value="loud">
+        Loud
+        </option>
+        <option value="reallyloud">
+          Really Loud
+          </option>
+  </select>
+    <br><br>
+
+    <label for="love">Does your cat love you?</label>
+    <select id="love" name="love">
+      <option value="somuch">
+        Sooooo Much 💕
+        </option>
+        <option value="maybe">
+          Maybe
+          </option>
+          <option value="dontcare">
+            I don't care, I love her! 💕💕💕💕
+            </option>
+
+  </select>
+  <br /><br />
+
+<label for="pattern">Your cat's look:</label><br />
+
+<input type="checkbox" id="stripes" name="stripes" value="stripes">
+<label for="stripes">Stripes</label><br>
+<input type="checkbox" id="calico" name="calico" value="calico">
+<label for="calico">Calico</label><br>
+<input type="checkbox" id="rainbow" name="rainbow" value="rainbow">
+<label for="rainbow">Rainbow</label><br>
+<input type="checkbox" id="fluffy" name="fluffy" value="fluffy">
+<label for="fluffy">Fluffy</label><br>
+<input type="checkbox" id="shorthair" name="shorthair" value="shorthair">
+<label for="shorthair">Short Hair</label><br>
+<input type="checkbox" id="hairless" name="hairless" value="hairless">
+<label for="hairless">Hairless</label><br>
+
+</fieldset>
+
+
+<h4>All finished?</h4>
+
+<p>
+  Purrrrfect!
+  </p>
+
+<input type="button" name="sendtomeow" value="Send to Me-ow">
+</form>
+
+
+  </body>
+</html>
